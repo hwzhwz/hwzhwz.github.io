@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://honven.xyz/2020/07/06/%E5%8F%91%E5%8D%A1%E7%BD%91/</loc>
+    <lastmod>2020-07-08</lastmod>
+  </url>  <url>
     <loc>http://honven.xyz/2019/11/28/clash%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B(%E6%90%AD%E9%85%8DProxy%20SwitchyOmega)/</loc>
     <lastmod>2020-07-08</lastmod>
   </url>  <url>
@@ -48,9 +51,6 @@
   </url>  <url>
     <loc>http://honven.xyz/2020/07/06/%E6%9C%AC%E5%9C%B0%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84Jupyter%20Notebook%E8%AE%BE%E7%BD%AE%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2020-05-11</lastmod>
-  </url>  <url>
-    <loc>http://honven.xyz/2020/07/06/%E5%8F%91%E5%8D%A1%E7%BD%91/</loc>
-    <lastmod>2020-04-27</lastmod>
   </url>  <url>
     <loc>http://honven.xyz/2020/07/06/netlify%E5%92%8Ccloudflare%E4%B8%8Ezeit%E6%90%AD%E9%85%8Djsdelivr%E7%BB%99Hexo%E5%8D%9A%E5%AE%A2cdn%E5%8A%A0%E9%80%9F%E5%AF%B9%E6%AF%94/</loc>
     <lastmod>2020-03-17</lastmod>
