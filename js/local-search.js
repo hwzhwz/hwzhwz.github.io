@@ -9,7 +9,6 @@ function _toConsumableArray(e) {
 }
 window.addEventListener('DOMContentLoaded', function () {
     var n = !1, r = void 0, o = !0, e = CONFIG.path;
-    0 === e.length ? e = 'search.xml' : /json$/i.test(e) && (o = !1);
     function T(e, t, n) {
         var r = e.length;
         if (0 === r)
@@ -121,20 +120,19 @@ window.addEventListener('DOMContentLoaded', function () {
             }) : JSON.parse(e), document.querySelector('.search-pop-overlay').innerHTML = '', document.body.style.overflow = '', t && t();
         });
     }
+    0 === e.length ? e = 'search.xml' : /json$/i.test(e) && (o = !1);
     var i = CONFIG.root + e, c = document.getElementById('search-input'), s = document.getElementById('search-result');
-    CONFIG.localsearch.preload && a();
     function l() {
         document.body.style.overflow = 'hidden', document.querySelector('.search-pop-overlay').style.display = 'block', document.querySelector('.popup').style.display = 'block', document.getElementById('search-input').focus();
     }
-    'auto' === CONFIG.localsearch.trigger ? c.addEventListener('input', t) : (document.querySelector('.search-icon').addEventListener('click', t), c.addEventListener('keypress', function (e) {
-        13 === e.keyCode && t();
-    })), document.querySelector('.popup-trigger').addEventListener('click', function () {
-        !1 === n ? (document.querySelector('.search-pop-overlay').style.display = '', document.querySelector('.search-pop-overlay').innerHTML = '<div class="search-loading-icon"><i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i></div>', a(l)) : l();
-    });
     function u() {
         document.body.style.overflow = '', document.querySelector('.search-pop-overlay').style.display = 'none', document.querySelector('.popup').style.display = 'none';
     }
-    document.querySelector('.search-pop-overlay').addEventListener('click', u), document.querySelector('.popup-btn-close').addEventListener('click', u), window.addEventListener('pjax:success', u), window.addEventListener('keyup', function (e) {
+    CONFIG.localsearch.preload && a(), 'auto' === CONFIG.localsearch.trigger ? c.addEventListener('input', t) : (document.querySelector('.search-icon').addEventListener('click', t), c.addEventListener('keypress', function (e) {
+        13 === e.keyCode && t();
+    })), document.querySelector('.popup-trigger').addEventListener('click', function () {
+        !1 === n ? (document.querySelector('.search-pop-overlay').style.display = '', document.querySelector('.search-pop-overlay').innerHTML = '<div class="search-loading-icon"><i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i></div>', a(l)) : l();
+    }), document.querySelector('.search-pop-overlay').addEventListener('click', u), document.querySelector('.popup-btn-close').addEventListener('click', u), window.addEventListener('pjax:success', u), window.addEventListener('keyup', function (e) {
         27 === e.which && u();
     });
 });
