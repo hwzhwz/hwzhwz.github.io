@@ -515,14 +515,14 @@
 
   
   <url>
-    <loc>http://ssrv2ray.xyz/tags/%E6%9C%BA%E5%9C%BA%E8%A7%82%E5%AF%9F/</loc>
+    <loc>http://ssrv2ray.xyz/tags/%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90/</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://ssrv2ray.xyz/tags/%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90/</loc>
+    <loc>http://ssrv2ray.xyz/tags/%E6%9C%BA%E5%9C%BA%E8%A7%82%E5%AF%9F/</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -543,13 +543,6 @@
   </url>
   
   <url>
-    <loc>http://ssrv2ray.xyz/tags/Quantumult/</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://ssrv2ray.xyz/tags/QuantumultX/</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -557,7 +550,7 @@
   </url>
   
   <url>
-    <loc>http://ssrv2ray.xyz/tags/%E5%85%8D%E8%B4%B9%E6%9C%BA%E5%9C%BA-%E5%85%AC%E7%9B%8A%E6%9C%BA%E5%9C%BA/</loc>
+    <loc>http://ssrv2ray.xyz/tags/Quantumult/</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -579,6 +572,13 @@
   
   <url>
     <loc>http://ssrv2ray.xyz/tags/%E5%8F%91%E5%8D%A1/</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://ssrv2ray.xyz/tags/%E5%85%8D%E8%B4%B9%E6%9C%BA%E5%9C%BA-%E5%85%AC%E7%9B%8A%E6%9C%BA%E5%9C%BA/</loc>
     <lastmod>2024-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
